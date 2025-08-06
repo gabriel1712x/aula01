@@ -1,0 +1,57 @@
+body {
+    color: #333333;
+}
+
+h1 {
+    background-image: url(../img/sobre-background.jpg);
+}
+
+figure {
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+p {
+    line-height: 18px;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    text-indent: 30px;
+}
+
+
+h2 {
+border-bottom: 2px solid #333333;
+}
+
+
+h1 {
+    color: red;
+}
+
+h2 {
+    background-color: yellow;
+}
+
+h3 {
+    color: rgb(255,200,0);
+}
+
+h3 {
+    background-color: #F2EDED;
+}
+
+h1 {
+    background-image: url(sobre-background.jpg);
+}
+
+body {
+    border-color: red;
+    border-style: solid;
+    border-width: 3px;
+}
+
