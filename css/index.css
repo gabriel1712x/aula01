@@ -1,16 +1,26 @@
-.menu-opcoes {
-    // código de um menu de opcoes 
-    // essas regras serão aplicadas ao nav 
-}
-
-.menu-cabecalho {
-    // código de um menu de cabeçalho
-    // essas regras TAMBÉM serão aplicadas ao nav 
-}
 
 .container {
     margin-right: auto; 
     margin-left: auto;
 }
 
-div class="info container"
+.sacola {
+background-image: url(../img/sacola.png);
+background-repeat: no-repeat;
+background-position: top right;
+font-size: 14px;
+padding-right: 35px;
+text-align: right;
+width: 140px;
+}
+
+.manu-opcoes ul {
+    font-size: 15px;
+}
+
+.manu-opcoes a {
+    color: #003366;
+}
+
+body {color: #333333;
+font-family: "ucida Sans Unicode", "lucia Grande", sans-serif;}
