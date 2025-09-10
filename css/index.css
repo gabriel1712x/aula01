@@ -56,3 +56,28 @@ body {
     top: 20px;
     right: 30px;
 }
+
+.relativo {
+    position: relative;
+}
+
+header {
+    position: relative;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sacola {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.busca,
+.menu-departamentos {
+    float: left;
+}
