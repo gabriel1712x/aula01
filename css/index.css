@@ -47,7 +47,7 @@ body {
 }
 
 .quadrado {
-    background-color: green
+    background-color: green;
     width: 200px;
     height: 200px;
 }
@@ -82,11 +82,12 @@ header {
     float: left;
 }
 
+
 .menu-departamentos {
-    clear: left;
-}
-.menu-departamentos {
-    text-transform:  uppercase;
+    text-transform: uppercase;
+    display: block;
+    float: none;
+    margin: 20px 0 0 0;
 }
 
 .busca,
@@ -112,10 +113,31 @@ header {
 }
 
 .menu-departamentos a {
-    color: #33333;
+    color: #333;
     text-decoration: none;
 }
 
 .busca input[type=search] {
     width: 170px;
+}
+
+
+
+.banner-destaque img {
+    width: inherit;
+}
+
+.destaque {
+    margin-top: 10px;
+}
+
+.menu-departamentos {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.painel li {
+     display: inline-block;
+     vertical-align: top;
+     width: 140px;
 }
