@@ -1,7 +1,4 @@
-.container {
-    margin-right: auto;
-    margin-left: auto;
-}
+
 
 .sacola {
     background-image: url(../img/sacola.png);
@@ -13,11 +10,11 @@
     width: 140px;
 }
 
-.manu-opcoes ul {
+.menu-opcoes ul {
     font-size: 15px;
 }
 
-.manu-opcoes a {
+.menu-opcoes a {
     color: #003366;
 }
 
@@ -35,31 +32,11 @@ body {
     padding-top: 8px;
 }
 
-.conteiner {
+.container {
     width: 940px;
     margin: 0 auto;
 }
 
-.logotipo {
-    padding: relative;
-    top: 200px;
-    left: 50px;
-}
-
-.quadrado {
-    background-color: green;
-    width: 200px;
-    height: 200px;
-}
-.absoluto {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-}
-
-.relativo {
-    position: relative;
-}
 
 header {
     position: relative;
@@ -86,7 +63,7 @@ header {
 .menu-departamentos {
     text-transform: uppercase;
     display: block;
-    float: none;
+    float: left;
     margin: 20px 0 0 0;
 }
 
@@ -123,8 +100,9 @@ header {
 
 
 
-.banner-destaque img {
+.banner-destaque  {
     width: inherit;
+    margin-left: 10px;
 }
 
 .destaque {
@@ -158,4 +136,32 @@ header {
     float: right;
 }
 
-.painel 
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+ 
+.painel h2 {
+    font-size: 24px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.novidades {
+    background-color: #F5DCDC;
+}
+
+.mais-vendidos {
+    background-color: #DCDCF5;
+}
