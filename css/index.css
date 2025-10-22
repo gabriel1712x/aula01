@@ -247,3 +247,87 @@ footer .container {
     float: left;
     margin-right: 25px;
 }
+
+.menu-opcoes a:active {
+    color: #867DC6;
+}
+
+.menu-opcoes a:hover {
+    color: #007DC6;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos  li ul {
+    display: none;
+}
+
+.menu-opcoes ul ul li {
+    background-color: #DCDCDC;
+}
+
+.menu-departamentos li li a:before {
+    content: "- ";
+}
+
+.menu-departamentos li li a:before {
+    content: "\272A";
+    padding-right: 3px;
+}
+
+.painel h2:before {
+    content: "\272A ";
+    padding-right: 5px;
+    opacity: 0.4;
+}
+
+:not(p) + p::first-line{
+    font-variant: small-caps;
+}
+
+div {
+    border-radius : 5px;
+}
+
+.a {
+    border-radius: 15px;
+}
+
+.b {
+    border-radius: 5px 20px;
+}
+
+.c {
+    border-radius: 5px 20px 50px;
+}
+
+.d {
+    border-radius: 5px 20px 50px 100px;
+}
+
+p {
+    text-shadow: 10px 10px 5px red, -5px -5px 4px red;
+}
+
+.radial {
+    background: radial-gradient(white, blue);
+}
+
+.gradiente {
+background: linear-gradient(45deg, #F0F9FF 0%, #CBEBFF 47%, #A1DBFF 100%)
+}
+
+.linear {
+    background: linear-gradient(to bottom,white,blue);
+}
+
+.painel {
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.painel h2 {
+    text-shadow: 3px 3px 2px #FFF
+}
