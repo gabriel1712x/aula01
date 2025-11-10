@@ -390,3 +390,110 @@ background: linear-gradient(45deg, #F0F9FF 0%, #CBEBFF 47%, #A1DBFF 100%)
     clear: left;
 }
 
+p {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.linear {
+    background: linear-gradient(white, blue);
+}
+
+.radial {
+    background: radial-gradient(white, blue);
+}
+
+.gradiente {
+    background: linear-gradient(45deg, #F0F9FF 0%, #CBEBFF 47%, #A1DBFF 100%);
+}
+
+.linear {
+    background: linear-gradient(to bottom, white, blue);
+}
+
+.linear {
+    background: -webkit-linear-gradient(top,white,blue);
+    background: -moz-linear-gradient(top,white,blue);
+    background: -o-linear-gradient(top,white,blue);
+}
+
+.linear {
+    background: -webkit-grandient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, blue));
+}
+
+.linear {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#0000FF', GradientType='0');
+}
+
+.gradiente {
+    background: #CBEBFF;
+    background: linear-gradient(45deg, #F0F9FF 0%, #CBEBFF 47%, #A1DBFF 100%)
+}
+
+.painel {
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px #999;
+}
+
+
+.painel h2 {
+    text-shadow: 3px 3px 2px #FFF;
+}   
+
+.painel {
+    text-shadow: 3px 3px 2px #FFF;
+}   
+
+.busca {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.painel h2 {
+    text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.8);
+}
+
+.novidades{
+    background: linear-gradient(#F5DCDC, #BEBEF4);
+}
+
+.mais-vendidos {
+    background: linear-gradient(#DCDCF5, #F4BEBE);
+}
+
+.painel li:hover {
+    box-shadow: 2px 2px 6px #666;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.painel li:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px #333;
+    transition: 0.7s;
+}
+
+.painel li:hover {
+    transform: scale(1.2);
+}
+ 
+.painel li:hover {
+    transform: scale(1.2) rotate(-5deg);
+}
+ 
+
+.painel li:nth-child(2n):hover { 
+    transform: scale(1.2) rotate(5deg);
+}
+
+.painel li {
+    transition: 0.7S;
+}
+
+.painel li:hover {
+    transition: 0.7s ease-in;
+}
+.painel li {
+    transition: transform 0.7s ease-in-out, box-shadow 0.7s ease-in-out;
+}
