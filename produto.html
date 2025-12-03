@@ -3,31 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/produto.css">
     <title>mirrorfashion</title>
 </head>
 <body>
     <div class="container">
+        <header class="container">
+      <h1><img src="img/logo.png" alt="Mirror Fashion" /></h1>
+      <p class="sacola">Nenhum item na sacola de compras.</p>
+      <nav class="menu-opcoes">
+        <ul>
+          <li><a href="https://github.com/">Sua Conta</a></li>
+          <li><a href="#">Lista de Desejos</a></li>
+          <li>
+            <a href="https://www.pizzariabigitalia.com.br/"
+              >Cartão de Fidelidade</a
+            >
+          </li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="#">Ajuda</a></li>
+        </ul>
+      </nav>
+    </header>
         <div class="produto">
-            <div class="detalhes">
-                <h2>Detalhes do produto</h2>
-                <p>Esse é o melhor casaco de cardigã que você já viu. Excelente material italiano com estampa desenhada pelos artesãos da comunidade de krotor nas ilhas gregas. compre já e receba hoje mesmo pela nossa entrega a jato.</p>
-            </div>
-        </div>
-            <fieldset class="tamanhos">
-                <legend>Escolha o tamanho:</legend> 
-                <input type="range" min="36" max="46" step="2" value="42" name="tamanho" id="tamanho">
+            <h1>Fuzzy Cardigan</h1>
+            <p>por apenas R$129,90</p>
+          
+            <form>
+                <fieldset class="cores">
+                    <legend>Escolha a cor:</legend>
+                    <input type="radio" name="cor" value="verde" id="verde" checked>
+                    <label for="verde">
+                        <img src="img/produtos/foto1-verde.png" alt="Verde">
+                    </label>
+
+                    <input type="radio" name="cor" value="rosa" id="rosa">
+                    <label for="rosa">
+                        <img src="img/produtos/foto1-rosa.png" alt="Rosa">
+                    </label>
+
+                    <input type="radio" name="cor" value="azul" id="azul">
+                    <label for="azul">
+                        <img src="img/produtos/foto1-azul.png" alt="Azul">
+                    </label>
+                </fieldset>
+
+                <fieldset class="tamanhos">
+                    <legend>Escolha o tamanho:</legend>
+                    <input type="radio" name="tamanho" value="pp" id="pp">
+                    <label for="pp">PP</label>
+
+                    <input type="radio" name="tamanho" value="p" id="p">
+                    <label for="p">P</label>
+
+                    <input type="radio" name="tamanho" value="m" id="m" checked>
+                    <label for="m">M</label>
+
+                    <input type="radio" name="tamanho" value="g" id="g">
+                    <label for="g">G</label>
+
+                    <input type="radio" name="tamanho" value="gg" id="gg">
+                    <label for="gg">GG</label>
+                </fieldset>
+
+                <button type="submit">Comprar</button>
+            </label>
             </fieldset>
-            <table>
-                <tr>
-                    <th>Título da primeira coluna</th>
-                    <th>título da segunda coluna</th>
-                </tr>
-                <tr>
-                    <td>Linha 1, coluna 1</td>
-                    <td>linha 2, coluna 2</td>
-                </tr>
-            </table>
+            </form>
+                
+            
             <table>
                 <caption>Quantidade e preço de camisetas.</caption>
 

@@ -3,163 +3,88 @@
     margin: 0 auto;
     padding: 1em;
 }
-.cores label::after {
-    content: '';
-    display: block;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-     box-sizing: border-box;
-      position: absolute;
-    top: 90px;
-      position: static;
-    float: left;
-     margin-right: 10px;
-      border: 6px solid rgba(0, 0, 0, 0.);
-    cursor: pointer;
-}   
-
-label[for=verde]::after {
-    background-color: #33CC66;
-}
-
-label[for=rosa]::after {
-    background-color: #FF6699;
-}
-
-label[for=azul]::after {
-    background-color: #3399FF;
-}
-
-
-.cores input:checked + label::after {
-    border: 6px solid rgba(0, 0, 0, 0.3);
-}
-.cores input[type=radio] {
-    display: none;
-}
-.cores input:not(:checked) + label img {
-    display: none;
-}
-
-
-
-.cores {
-    position : relative;
-    padding-top: 90;
-     position: static;
-    padding: 0;
-}
-
-label[for=verde]::after {
-    left: 0;
-}
-
-label[for=rosa]::after {
-    left: 60px;
-}
-
-label[for=azul]::after {
-    left: 120px;
-}
-
-.cores label img {
-    display: block;
-    max-width: 100%;
-      position: absolute;
-    top: 0;
-    left: 0;
-     max-width: 35%;
-    max-height: 100%;
-}
 
 .produto {
     color: #333;
     line-height: 1.3em;
     margin-top: 2em;
-      position: relative;
+    position: relative;
     padding-left: 40%;
-     font-size: 1.2em;
+    font-size: 1.2em;
 }
-
-.produto h1 {
-    font-size: 1.8em;
-    font-weight: bold;
-}
-
-.produto p {
-    font-size:  1.2em;
-    font-style: italic;
-    margin-bottom: 1em;
-}
-
-.produto legend {
-    display: block;
-    font: bold 0.9em/2.5 arial;
-    text-transform: uppercase;
-}
-
-.comprar {
-    background: #91d3c9;
-    border: none;
-    color: #333;
-
-    font-size: 1.4em;
-    text-transform: uppercase;
-
-    box-shadow: 0 1px 3px #777 ;
-
-    display: block;
-    padding: 0,5em 1em;
-    margin-top: 1em;
-}
-
-
-.cores label:hover::after {
-    border: 6px solid rgba(0, 0, 0, 0.1);
-}
-
-@media (min-width: 600px) {
-    img {
-        float: left;
-    }
-}
-
-
-
-@media (min-width: 630px) {
-}
-
-
-.cores legend {
-    position: static;
-}
-
-
-fieldset {
-    display: inline-block;
-    vertical-align: top;
-
-    margin: 1em 0;
-    min-width: 240px;
-    width: 45%;
-}
-
 .detalhes {
     padding: 2em 0;
 }
 
 .detalhes h2 {
     font-size: 1.5em;
-    line-height: 2;
+    line-height: 2em;
 }
 
 .detalhes p {
     margin: 1em 0;
-    font-size: 1.5em;
-    line-height: 2;
+    font-size: 1em;
+    line-height: 1.5em;
     max-width: 36em;
 }
+.cores label::after {
+    content: '';
+    display: block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 90px;
+    margin-right: 10px;
+    border: 6px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+label[for=verde]::after { background: #33CC66; left: 0; width: 40px; height: 40px; }
+label[for=rosa]::after  { background: #FF6699; left: 60px; width: 40px; height: 40px; }
+label[for=azul]::after  { background: #3399FF; left: 120px; width: 40px; height: 40px; }
+
+.cores input[type=radio] {
+    display: none;
+}
+
+.cores input:checked + label::after {
+    border: 6px solid rgba(0, 0, 0, 0.3);
+}
+
+.cores input:not(:checked) + label img {
+    display: none;
+}
+
+.cores {
+    position: relative;
+    padding-top: 90px;
+    padding: 0;
+}
+
+.cores label img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 35%;
+    max-height: 100%;
+}
+
+
+.comprar {
+    background: #91d3c9;
+    border: none;
+    color: #333;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    box-shadow: 0 1px 3px #777;
+    display: block;
+    padding: 0.5em 1em; /* corrigido */
+    margin-top: 1em;
+}
+
 
 @media (min-width: 500px) {
     .detalhes {
